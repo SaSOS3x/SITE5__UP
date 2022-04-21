@@ -1,56 +1,56 @@
 @font-face{
     font-family: "Comfortaa";
-    src: url(../fonts/Comfortaa-Regular.ttf);
+    src: url(../fonts/Comfortaa-Regular.ttf) format("truetype");
     font-weight: 400;
 }
 @font-face{
     font-family: "Comfortaa";
-    src: url(../fonts/Comfortaa-Bold.ttf);
+    src: url(../fonts/Comfortaa-Bold.ttf) format("truetype");;
     font-weight: 700;
 }
 @font-face{
     font-family: "Montserrat";
-    src: url(../fonts/Montserrat-Regular.ttf);
+    src: url(../fonts/Montserrat-Regular.ttf) format("truetype");;
     font-weight: 400;
 }
 @font-face{
     font-family: "Montserrat";
-    src: url(../fonts/Montserrat-Medium.ttf);
+    src: url(../fonts/Montserrat-Medium.ttf) format("truetype");;
     font-weight: 500;
 }
 @font-face{
     font-family: "Montserrat";
-    src: url(../fonts/Montserrat-SemiBold.ttf);
+    src: url(../fonts/Montserrat-SemiBold.ttf) format("truetype");;
     font-weight: 600;
 }
 @font-face{
     font-family: "Montserrat";
-    src: url(../fonts/Montserrat-Bold.ttf);
+    src: url(../fonts/Montserrat-Bold.ttf) format("truetype");;
     font-weight: 700;
 }
 @font-face{
     font-family: "Roboto";
-    src: url(../fonts/Roboto-Black.ttf);
+    src: url(../fonts/Roboto-Black.ttf) format("truetype");;
     font-weight: 900;
 }
 @font-face{
     font-family: "Roboto";
-    src: url(../fonts/Roboto-Light.ttf);
+    src: url(../fonts/Roboto-Light.ttf) format("truetype");;
     font-weight: 300;
 }
 @font-face{
     font-family: "Roboto";
-    src: url(../fonts/Roboto-Medium.ttf);
+    src: url(../fonts/Roboto-Medium.ttf) format("truetype");;
     font-weight: 500;
 }
 @font-face{
     font-family: "Roboto";
-    src: url(../fonts/Roboto-Regular.ttf);
+    src: url(../fonts/Roboto-Regular.ttf) format("truetype");;
     font-weight: 400;
 }
 @font-face{
     font-family: "Poppins";
-    src: url(../fonts/Poppins-Medium.ttf);
+    src: url(../fonts/Poppins-Medium.ttf) format("truetype");;
     font-weight: 500;
 }
 *{
@@ -66,21 +66,6 @@ body{
     overflow-x: hidden;
 }
 input, textarea {outline:none;} input:active, textarea:active {outline:none;} :focus {outline:none;} textarea {resize:none;} textarea {resize:vertical;} textarea {resize:horizontal;}
-
-
-
-.Mont{
-    font-family: "Montserrat";
-}
-.Poppins{
-    font-family: "Poppins";
-}
-.Roboto{
-    font-family: "Roboto";
-}
-.Comfort{
-    font-family: "Comfortaa";
-}
 
 
 
@@ -233,10 +218,10 @@ footer .Copyright{
 .IndexHTML header{
     align-items: center;
 }
-.IndexHTML .Sec1{
+.IndexHTML .section1{
     background: url(../images/index/Sec1Bg.png) no-repeat center center / cover;
 }
-.IndexHTML .Sec1Div{
+.IndexHTML .s1__FULL{
     height: 890px;
     width: 1920px;
 }
@@ -253,12 +238,12 @@ a{
 }
 a:hover{
     transform: scale(1.1);
-    transform: rotate(5deg);
+    transform: rotate(3deg);
 }
-.IndexHTML .Sec1Div{
+.IndexHTML .s1__FULL{
     padding: 128px 0 0 352px;
 }
-.IndexHTML .Sec1Div .Button{
+.IndexHTML .s1__FULL .Button{
     width: 308px;
     height: 79px;
     background: url(../images/index/ButtonSec1.png) no-repeat center center / cover;
@@ -271,7 +256,7 @@ a:hover{
     font-size: 24px;
     font-family: "Comfortaa", sans-serif;
 }
-.IndexHTML .Sec1Div h2{
+.IndexHTML .s1__FULL h2{
     font-size: 72px;
     font-weight: 900;
     color: #3b668d;
@@ -280,35 +265,50 @@ a:hover{
     line-height: 97%;
     margin-bottom: 9px;
 }
-.IndexHTML .Sec1Div .MoreInfo:hover{
+.IndexHTML .s1__FULL .MoreInfo:hover{
     transform: scale(1.1);
 }
-.IndexHTML .Sec1Div a{
+.IndexHTML .s1__FULL a{
     transition: 0.5s all;
 }
 
 
 
+.Mont{
+    font-family: "Montserrat";
+}
+.Poppins{
+    font-family: "Poppins";
+}
+.Roboto{
+    font-family: "Roboto";
+}
+.Comfort{
+    font-family: "Comfortaa";
+}
+
+
+
 /*SECTION2*/
-.IndexHTML .Sec2Div{
+.IndexHTML .s2__FULL{
     display: flex;
     height: 1167px;
     width: 1920px;
     padding-top: 60px;
 }
-.IndexHTML .Sec2Div div img{
+.IndexHTML .s2__FULL div img{
     margin-right: 25px;
     width: 93px;
     height: 90px;
 }
-.IndexHTML .Sec2Div div div{
+.IndexHTML .s2__FULL div div{
     margin-bottom: 40px;
 }
-.IndexHTML .Sec2Div div div h4{
+.IndexHTML .s2__FULL div div h4{
     margin-top: 7px;
     width: 441px;
 }
-.IndexHTML .Sec2Div div div p{
+.IndexHTML .s2__FULL div div p{
     color: #2b4964;
     line-height: 150%;
     font-size: 18px;
@@ -317,21 +317,21 @@ a:hover{
 
 
 /*SECTION3*/
-.IndexHTML .Sec3Div{
+.IndexHTML .s3__FULL{
     text-align: center;
     height: 1279px;
     width: 1920px;
 }
-.IndexHTML .Sec3Div h2{
+.IndexHTML .s3__FULL h2{
     margin-bottom: 23px;
 }
-.IndexHTML .Sec3Div .FirstPSec3{
+.IndexHTML .s3__FULL .FirstPSec3{
     color: #79788f;
     font-size: 30px;
     font-weight: 400;
     margin-bottom: 20px;
 }
-.IndexHTML .Sec3Div div div .MemberShipFirstCard{
+.IndexHTML .s3__FULL div div .MemberShipFirstCard{
     transition: 0.3s all;
     border-radius: 20px;
     background-color: white;
@@ -345,14 +345,14 @@ a:hover{
     display: flex;
     margin-top: 76px;
 }
-.IndexHTML .Sec3Div div div div:hover{
+.IndexHTML .s3__FULL div div div:hover{
     filter: drop-shadow(0px 13px 27px rgba(0, 0, 0, 0.1));
     cursor: pointer;
     height: 1002px;
-    width: 620px;
+    width: 520px;
 }
 
-.IndexHTML .Sec3Div div div ul li{
+.IndexHTML .s3__FULL div div ul li{
     font-family: "Comfortaa", sans-serif;
     font-size: 24px;
     font-weight: 400;
@@ -364,28 +364,28 @@ a:hover{
     justify-content: space-between;
     margin-bottom: 47px;
 }
-.IndexHTML .Sec3Div div div ul li::after{
+.IndexHTML .s3__FULL div div ul li::after{
     content: url(../images/index/check.svg);
     width: 20px;
     height: 17px;
 }
-.IndexHTML .Sec3Div div div ul{
+.IndexHTML .s3__FULL div div ul{
     align-self: center;
     width: 308px;
 }
-.IndexHTML .Sec3Div div div .Sec3Button{
+.IndexHTML .s3__FULL div div .Sec3Button{
     width: 0.5px;
     height: 0.5px;
     color: transparent;
     background-color: transparent;
     transition: 0.4s all;
 }
-.IndexHTML .Sec3Div div div .MoneyBack{
+.IndexHTML .s3__FULL div div .MoneyBack{
     font-size: 0.5px;
     color: transparent;
     transition: 0.4s all;
 }
-.IndexHTML .Sec3Div div div div:hover .Sec3Button{
+.IndexHTML .s3__FULL div div div:hover .Sec3Button{
     width: 308px;
     height: 79px;
     color: white;
@@ -399,28 +399,27 @@ a:hover{
     align-items: center;
     justify-content: center;
 }
-.IndexHTML .Sec3Div div div div:hover .MemberShipTopFirst{
+.IndexHTML .s3__FULL div div div:hover .MemberShipTopFirst{
     width: 450px;
 }
-
-.IndexHTML .Sec3Div div div div .MemberShipTopFirst{
+.IndexHTML .s3__FULL div div div .MemberShipTopFirst{
     width: 291px;
     transition: 0.4s all;
     height: 140px;
 }
-.IndexHTML .Sec3Div div div div .MemberShipTopSecond{
+.IndexHTML .s3__FULL div div div .MemberShipTopSecond{
     width: 457px;
     transition: 0.4s all;
     height: 247px;
 }
-.IndexHTML .Sec3Div div div div:hover .MoneyBack{
+.IndexHTML .s3__FULL div div div:hover .MoneyBack{
     font-size: 18px;
     font-weight: 400;
     color: #567796;
     font-family: "Comfortaa", sans-serif;
     margin-top: 47px;
 }
-.IndexHTML .Sec3Div .MemberShipThirdCard{
+.IndexHTML .s3__FULL .MemberShipThirdCard{
     transition: 0.3s all;
     border-radius: 20px;
     background-color: white;
@@ -430,7 +429,7 @@ a:hover{
     flex-direction: column;
     justify-content: right;
 }
-.IndexHTML .Sec3Div div div div:hover .MemberShipTopThird{
+.IndexHTML .s3__FULL div div div:hover .MemberShipTopThird{
     height: 351px;
 }
 .MemberShipTopThird{
@@ -440,7 +439,7 @@ a:hover{
 
 
 /*SECTION4*/
-.Sec4Div{
+.s4__FULL{
     width: 1920px;
     height: 261px;
     background: url(../images/index/Sec4Bg.png);
@@ -449,44 +448,44 @@ a:hover{
     justify-content: center;
     margin-bottom: 150px;
 }
-.Sec4Div .Icons{
+.s4__FULL .Icons{
     display: flex;
 }
-.Sec4Div .Icons .IconDownloaded{
+.s4__FULL .Icons .IconDownloaded{
     width: 106px;
     height: 106px;
     margin-right: 30px;
 }
-.Sec4Div .Icons .Registered{
+.s4__FULL .Icons .Registered{
     width: 74px;
     height: 74px;
     margin: 16px 35px 0 106px;
 }
-.Sec4Div .Icons p{
+.s4__FULL .Icons p{
     font-family: "Comfortaa", sans-serif;
     font-size: 24px;
     font-weight: 700;
     margin-top: 16px;
     color: #718dc2;
 }
-.Sec4Div .Icons h3{
+.s4__FULL .Icons h3{
     font-family: "Comfortaa", sans-serif;
     font-size: 42px;
     font-weight: 700;
     margin-top: 16px;
     color: #425B8C;
 }
-.Sec4Div .Icons img{
-    animation: scaling;
-    animation-duration: 1.5s; 
+.s4__FULL .Icons img{
+    animation: scale;
+    animation-duration: 3s; 
     animation-iteration-count: infinite;
 }
-@keyframes scaling {
+@keyframes scale {
     0%{
         transform: scale(1);
     }
     50%{
-        transform: scale(1.3);
+        transform: scale(1.2);
     }
     100%{
         transform: scale(1);
@@ -499,12 +498,12 @@ a:hover{
 .ContactHTML{
     text-align: center;
 }
-.ContactHTML .Sec1Div{
+.ContactHTML .s1__FULL{
     margin-top: -85px;
     height: 1044px;
     width: 1920px;
 }
-.ContactHTML .Sec1Div h2{
+.ContactHTML .s1__FULL h2{
     font-size: 72px;
     color: #3b668d;
     letter-spacing: 0.405em;
@@ -512,7 +511,7 @@ a:hover{
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
 }
-.ContactHTML .Sec1Div p{
+.ContactHTML .s1__FULL p{
     letter-spacing: 0.905em;
     text-transform: uppercase;
     font-weight: 400;
@@ -527,7 +526,7 @@ a:hover{
 
 
 /*CONTACT__S2*/
-.ContactHTML .Sec2Div{
+.ContactHTML .s2__FULL{
     width: 1920px;
     height: 1000px;
     background: url(../images/contact/Sec2BgContact.png) no-repeat center center / cover;
@@ -592,12 +591,12 @@ a:hover{
     font-weight: 700;
     margin-right: 45px;
 }
-.ContactHTML .Sec2Div div{
+.ContactHTML .s2__FULL div{
     display: flex;
     align-items: center;
     align-self: center;
 }
-.ContactHTML .Sec2Div textarea{
+.ContactHTML .s2__FULL textarea{
     width: 749px;
     height: 273px;
     align-self: center;
@@ -612,10 +611,10 @@ a:hover{
     border: 0px;
     margin-bottom: 20px;
 }
-.ContactHTML .Sec2Div textarea::-webkit-input-placeholder{
+.ContactHTML .s2__FULL textarea::-webkit-input-placeholder{
     color: #adadad;
 }
-.ContactHTML .Sec2Div div a{
+.ContactHTML .s2__FULL div a{
     background: linear-gradient(90deg, #43A1D6 0%, #907EFF 100%);
     border-radius: 62px;
     width: 250px;
@@ -629,7 +628,7 @@ a:hover{
     transition: 0.5s all;
     margin-left: 155px;
 }
-.ContactHTML .Sec2Div div .WeDont{
+.ContactHTML .s2__FULL div .WeDont{
     font-size: 18px;
     font-weight: 700;
     color: #adadad;
@@ -638,7 +637,7 @@ a:hover{
 
 
 /*FAQ__S1*/
-.FAQHTML .Sec1Div{
+.FAQHTML .s1__FULL{
     height: 1545px;
     width: 1920px;
     background: url(../images/FAQ/BackGroundN.png) no-repeat;
@@ -648,7 +647,7 @@ a:hover{
     align-items: center;
     text-align: center;
 }
-.FAQHTML .Sec1Div .DivWithMinus{
+.FAQHTML .s1__FULL .DivWithMinus{
     text-align: left;
     display: flex;
     width: 1200px;
@@ -658,21 +657,21 @@ a:hover{
     justify-content: space-between;
     margin-bottom: 13px;
 }
-.FAQHTML .Sec1Div .DivWithMinus h5{
+.FAQHTML .s1__FULL .DivWithMinus h5{
     font-weight: 700;
     font-size: 30px;
     font-family: "Comfortaa", sans-serif;
     color: #46637e; 
 }
-.FAQHTML .Sec1Div .B2E3{
+.FAQHTML .s1__FULL .B2E3{
     background: linear-gradient(90deg, #B2E3FF 0%, #DFBFFF 100%);
 }
-.FAQHTML .Sec1Div .B2E4{
+.FAQHTML .s1__FULL .B2E4{
     background: linear-gradient(90deg, #B2E4FF 0%, #DFBFFF 100%);
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
-.FAQHTML .Sec1Div .FirstPSec3{
+.FAQHTML .s1__FULL .FirstPSec3{
     color: #3b668d;
     font-size: 24px;
     font-weight: 400;
@@ -681,7 +680,7 @@ a:hover{
     letter-spacing: 0.905em;
     margin: 15px 0 124px 0;
 }
-.FAQHTML .Sec1Div h2{
+.FAQHTML .s1__FULL h2{
     text-transform: uppercase;
     color: #3B668D; 
     font-size: 72px; 
@@ -736,7 +735,7 @@ a:hover{
 
 
 /*Login__S1*/
-.LoginHTML .Sec1Div{
+.LoginHTML .s1__FULL{
     height: 1310px;
     width: 1920px;
     background: url("../images/Login/BackGroundN.png") no-repeat;
@@ -746,7 +745,7 @@ a:hover{
     align-items: center;
     text-align: center;
 }
-.LoginHTML .Sec1Div h2{
+.LoginHTML .s1__FULL h2{
     text-transform: uppercase;
     color: #3B668D; 
     font-size: 72px; 
@@ -755,7 +754,7 @@ a:hover{
     font-family: "Roboto", sans-serif;
     margin-top: 80px;
 }
-.LoginHTML .Sec1Div .FirstPSec3{
+.LoginHTML .s1__FULL .FirstPSec3{
     color: #3b668d;
     font-size: 24px;
     font-weight: 400;
@@ -820,7 +819,7 @@ a:hover{
     font-size: 24px;
     color: #ADADAD;
 }
-.LoginHTML .Sec1Div .Login__button{
+.LoginHTML .s1__FULL .Login__button{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -832,7 +831,7 @@ a:hover{
     margin-left: 60px;
     margin-top: 50px;
 }
-.LoginHTML .Sec1Div .Login__button p{
+.LoginHTML .s1__FULL .Login__button p{
     font-family: 'Comfortaa';
     font-style: normal;
     font-weight: 700;
@@ -840,7 +839,7 @@ a:hover{
     line-height: 27px;
     color: white;
 }
-.LoginHTML .Sec1Div a:last-child{
+.LoginHTML .s1__FULL a:last-child{
     margin-left: 60px;
     font-family: 'Comfortaa';
     font-style: normal;
@@ -855,15 +854,15 @@ a:hover{
 
 
 /*PRICE__S1*/
-.PriceHTML .Sec2Div{
+.PriceHTML .s2__FULL{
     text-align: center;
     height: 1279px;
     width: 1920px;
 }
-.PriceHTML .Sec2Div h2{
+.PriceHTML .s2__FULL h2{
     margin-bottom: 23px;
 }
-.PriceHTML .Sec2Div .FirstPSec3{
+.PriceHTML .s2__FULL .FirstPSec3{
     color: #3b668d;
     font-size: 24px;
     font-weight: 400;
@@ -871,7 +870,7 @@ a:hover{
     text-transform: uppercase;
     letter-spacing: 0.905em;
 }
-.PriceHTML .Sec2Div div div .MemberShipFirstCard{
+.PriceHTML .s2__FULL div div .MemberShipFirstCard{
     transition: 0.3s all;
     border-radius: 20px;
     background-color: white;
@@ -885,13 +884,13 @@ a:hover{
     display: flex;
     margin-top: 156px;
 }
-.PriceHTML .Sec2Div div div div:hover{
+.PriceHTML .s2__FULL div div div:hover{
     filter: drop-shadow(0px 13px 27px rgba(0, 0, 0, 0.1));
     cursor: pointer;
     height: 1002px;
     width: 620px;
 }
-.PriceHTML .Sec2Div div div ul li{
+.PriceHTML .s2__FULL div div ul li{
     font-family: "Comfortaa", sans-serif;
     font-size: 24px;
     font-weight: 400;
@@ -903,28 +902,28 @@ a:hover{
     justify-content: space-between;
     margin-bottom: 47px;
 }
-.PriceHTML .Sec2Div div div ul li::after{
+.PriceHTML .s2__FULL div div ul li::after{
     content: url(../images/index/check.svg);
     width: 20px;
     height: 17px;
 }
-.PriceHTML .Sec2Div div div ul{
+.PriceHTML .s2__FULL div div ul{
     align-self: center;
     width: 308px;
 }
-.PriceHTML .Sec2Div div div .Sec3Button{
+.PriceHTML .s2__FULL div div .Sec3Button{
     width: 0.5px;
     height: 0.5px;
     color: transparent;
     background-color: transparent;
     transition: 0.4s all;
 }
-.PriceHTML .Sec2Div div div .MoneyBack{
+.PriceHTML .s2__FULL div div .MoneyBack{
     font-size: 0.5px;
     color: transparent;
     transition: 0.4s all;
 }
-.PriceHTML .Sec2Div div div div:hover .Sec3Button{
+.PriceHTML .s2__FULL div div div:hover .Sec3Button{
     width: 308px;
     height: 79px;
     color: white;
@@ -938,27 +937,27 @@ a:hover{
     align-items: center;
     justify-content: center;
 }
-.PriceHTML .Sec2Div div div div:hover .MemberShipTopFirst{
+.PriceHTML .s2__FULL div div div:hover .MemberShipTopFirst{
     width: 450px;
 }
-.PriceHTML .Sec2Div div div div .MemberShipTopFirst{
+.PriceHTML .s2__FULL div div div .MemberShipTopFirst{
     width: 291px;
     transition: 0.4s all;
     height: 140px;
 }
-.PriceHTML .Sec2Div div div div .MemberShipTopSecond{
+.PriceHTML .s2__FULL div div div .MemberShipTopSecond{
     width: 457px;
     transition: 0.4s all;
     height: 247px;
 }
-.PriceHTML .Sec2Div div div div:hover .MoneyBack{
+.PriceHTML .s2__FULL div div div:hover .MoneyBack{
     font-size: 18px;
     font-weight: 400;
     color: #567796;
     font-family: "Comfortaa", sans-serif;
     margin-top: 47px;
 }
-.PriceHTML .Sec2Div .MemberShipThirdCard{
+.PriceHTML .s2__FULL .MemberShipThirdCard{
     transition: 0.3s all;
     border-radius: 20px;
     background-color: white;
@@ -968,7 +967,7 @@ a:hover{
     flex-direction: column;
     justify-content: right;
 }
-.PriceHTML .Sec2Div div div div:hover .MemberShipTopThird{
+.PriceHTML .s2__FULL div div div:hover .MemberShipTopThird{
     height: 351px;
 }
 .PriceHTML .MemberShipTopThird{
@@ -978,7 +977,7 @@ a:hover{
 
 
 /*PROFILE__S1*/
-.ProfileHTML .Sec1Div{
+.ProfileHTML .s1__FULL{
     width: 1920px;
     height: 1720px;
     background: url(../images/Profile/BackGroundN.png) no-repeat;
@@ -988,7 +987,7 @@ a:hover{
     align-items: center;
     text-align: center;
 }
-.ProfileHTML .Sec1Div div .BorderDivProfile{
+.ProfileHTML .s1__FULL div .BorderDivProfile{
     display: flex;
     width: 313px;
     height: 164px;
@@ -998,11 +997,11 @@ a:hover{
     align-items: center;
     margin: 0 71px; 
 }
-.ProfileHTML .Sec1Div div{
+.ProfileHTML .s1__FULL div{
     display: flex;
     align-items: center;
 }
-.ProfileHTML .Sec1Div .AllProfileDivs{
+.ProfileHTML .s1__FULL .AllProfileDivs{
     display: flex;
     flex-wrap: wrap;
     margin: 100px -71px;
@@ -1021,16 +1020,16 @@ a:hover{
     text-transform: uppercase;
     font-family: "Roboto", sans-serif;
 }
-.ProfileHTML .Sec1Div div img{
+.ProfileHTML .s1__FULL div img{
     width: 114px;
     height: 124px;
     margin-left: 20px;
 }
-.ProfileHTML .Sec1Div div div div{
+.ProfileHTML .s1__FULL div div div{
     display: flex;
     flex-direction: column;
 }
-.ProfileHTML .Sec1Div h2{
+.ProfileHTML .s1__FULL h2{
     text-transform: uppercase;
     color: #3B668D; 
     font-size: 72px; 
@@ -1039,7 +1038,7 @@ a:hover{
     font-family: "Roboto", sans-serif;
     margin-top: 80px;
 }
-.ProfileHTML .Sec1Div .FirstPSec3{
+.ProfileHTML .s1__FULL .FirstPSec3{
     color: #3b668d;
     font-size: 24px;
     font-weight: 400;
@@ -1048,7 +1047,7 @@ a:hover{
     letter-spacing: 0.905em;
     margin-top: 15px;
 }
-.ProfileHTML .Sec1Div input[type="email"]{
+.ProfileHTML .s1__FULL input[type="email"]{
     width: 736px;
     height: 100px;
     margin-bottom: 20px;
@@ -1063,7 +1062,7 @@ a:hover{
     padding-right: 260px;
     font-family: "Comfortaa", sans-serif;
 }
-.ProfileHTML .Sec1Div input[type="password"]{
+.ProfileHTML .s1__FULL input[type="password"]{
     width: 736px;
     height: 100px;
     margin-bottom: 20px;
@@ -1077,13 +1076,13 @@ a:hover{
     padding-left: 40px;
     font-family: "Comfortaa", sans-serif;
 }
-.ProfileHTML .Sec1Div input[type="password"]::-webkit-input-placeholder{
+.ProfileHTML .s1__FULL input[type="password"]::-webkit-input-placeholder{
     color: #adadad;
     font-size: 24px;
     font-weight: 700; 
     font-family: "Comfortaa", sans-serif;
 }
-.ProfileHTML .Sec1Div input[type="email"]::-webkit-input-placeholder{
+.ProfileHTML .s1__FULL input[type="email"]::-webkit-input-placeholder{
     color: #adadad;
     font-size: 24px;
     font-weight: 700; 
@@ -1145,7 +1144,7 @@ a:hover{
 
 
 /*REGISTER__S1*/
-.RegisterHTML .Sec1Div{
+.RegisterHTML .s1__FULL{
     width: 1920px;
     height: 1350px;
     background: url(../images/Register/BackGroundN.png) no-repeat;
@@ -1154,12 +1153,12 @@ a:hover{
     flex-direction: column;
     margin-top: -160px;
 }
-.RegisterHTML .Sec1Div .NoRegisterDiv{
+.RegisterHTML .s1__FULL .NoRegisterDiv{
     display: flex;
     align-items: center;
     margin-left: -175px;
 }
-.RegisterHTML .Sec1Div h2{
+.RegisterHTML .s1__FULL h2{
     text-transform: uppercase;
     color: #3B668D; 
     font-size: 72px; 
@@ -1168,7 +1167,7 @@ a:hover{
     font-family: "Roboto", sans-serif;
     margin-top: 80px;
 }
-.RegisterHTML .Sec1Div .FirstPSec3{
+.RegisterHTML .s1__FULL .FirstPSec3{
     color: #3b668d;
     font-size: 24px;
     font-weight: 400;
@@ -1178,7 +1177,7 @@ a:hover{
     margin-top: 15px;
     margin-bottom: 88px;
 }
-.RegisterHTML .Sec1Div input[type="email"]{
+.RegisterHTML .s1__FULL input[type="email"]{
     width: 630px;
     height: 100px;
     margin-bottom: 20px;
@@ -1193,7 +1192,7 @@ a:hover{
     padding-right: 260px;
     font-family: "Comfortaa", sans-serif;
 }
-.RegisterHTML .Sec1Div input[type="password"]{
+.RegisterHTML .s1__FULL input[type="password"]{
     width: 630px;
     height: 100px;
     margin-bottom: 20px;
@@ -1207,19 +1206,19 @@ a:hover{
     padding-left: 40px;
     font-family: "Comfortaa", sans-serif;
 }
-.RegisterHTML .Sec1Div input[type="password"]::-webkit-input-placeholder{
+.RegisterHTML .s1__FULL input[type="password"]::-webkit-input-placeholder{
     color: #adadad;
     font-size: 24px;
     font-weight: 700; 
     font-family: "Comfortaa", sans-serif;
 }
-.RegisterHTML .Sec1Div input[type="email"]::-webkit-input-placeholder{
+.RegisterHTML .s1__FULL input[type="email"]::-webkit-input-placeholder{
     color: #adadad;
     font-size: 24px;
     font-weight: 700; 
     font-family: "Comfortaa", sans-serif;
 }
-.RegisterHTML .Sec1Div .NoRegisterDiv p{
+.RegisterHTML .s1__FULL .NoRegisterDiv p{
     width: 175px;
     color: #3b3f8d;
     font-family: "Comfortaa", sans-serif;
@@ -1228,7 +1227,7 @@ a:hover{
     font-size: 24px;
     margin-right: 45px;
 }
-.RegisterHTML .Sec1Div .RefreshIng{
+.RegisterHTML .s1__FULL .RefreshIng{
     width: 42px;
     height: 42px;
     margin-left: 13px;
@@ -1244,10 +1243,10 @@ a:hover{
         transform: rotate(360deg);
     }
 }
-.RegisterHTML .Sec1Div .RefreshIng:hover{
+.RegisterHTML .s1__FULL .RefreshIng:hover{
     cursor: pointer;
 }
-.RegisterHTML .Sec1Div input[type="text"]{
+.RegisterHTML .s1__FULL input[type="text"]{
     width: 286px;
     height: 100px;
     margin-left: 31px;
@@ -1261,7 +1260,7 @@ a:hover{
     padding-left: 40px;
     font-family: "Comfortaa", sans-serif;
 }
-.RegisterHTML .Sec1Div input[type="text"]::-webkit-input-placeholder{
+.RegisterHTML .s1__FULL input[type="text"]::-webkit-input-placeholder{
     color: #adadad;
     font-size: 24px;
     font-weight: 700; 
